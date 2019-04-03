@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import { MasterClock } from './figmaComponents';
-import registerServiceWorker from './registerServiceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import { MasterPage5 } from "./figmaComponents";
+import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<MasterClock />, document.body);
+ReactDOM.render(<MasterPage5 />, document.body);
+
 registerServiceWorker();
