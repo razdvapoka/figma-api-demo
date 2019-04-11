@@ -189,6 +189,8 @@ export class ${name} extends PureComponent {
         width: nodeBounds.width,
         height: nodeBounds.height
       };
+
+      console.log(bounds);
     }
 
     expandChildren(node, parent, minChildren, maxChildren, centerChildren, 0);
@@ -267,8 +269,6 @@ export class ${name} extends PureComponent {
         styles.height = null;
       }
     }
-
-    console.log(node.name, cVertical, cHorizontal, bounds);
 
     if (
       ["FRAME", "RECTANGLE", "INSTANCE", "COMPONENT"].indexOf(node.type) >= 0

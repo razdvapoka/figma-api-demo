@@ -107,6 +107,8 @@ async function main() {
   const canvas = doc.children[0];
   let html = "";
 
+  console.log('canvas', canvas);
+
   for (let i = 0; i < canvas.children.length; i++) {
     const child = canvas.children[i];
     if (child.name.charAt(0) === "#" && child.visible !== false) {
